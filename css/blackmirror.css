@@ -1,0 +1,41 @@
+/******************************************************************/
+/*            Style sheet for Black Mirror web site               */
+/*            Author: Daniel Trujillo                             */
+/*            Version: 1.0                                        */
+/*            comments: class project 2023-24                     */
+/******************************************************************/
+
+/* cuando quiero usar una tipografía y asegurarme de que se verá
+   correctamente, suministro también con la página el archivo
+   de la fuente que será .ttf o otf                           */
+
+/* ahora, enlazo el archivo descargado                        */
+
+
+@font-face {  /* esto es un selector, es un enlaze */
+      font-family: blackmirror ;
+      src: url(../font/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
+
+@font-face {
+      font-family: textonormal;
+      src: url(../font/OpenSans-Regular.ttf);
+}
+body {margin:0;padding:0;   /* para desactivar el espacio de 
+                               separación por defecto */
+      background-color: rgb(20, 20, 20);
+      font-family: blackmirror;
+#wrapper {background-color: #808080;}
+         Width:80%;         /* ancho fijado al 80% */
+         margin:auto}       /* fijado automático */
+         
+
+
+
+
+
+
+
+
+
+
